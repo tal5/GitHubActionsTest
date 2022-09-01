@@ -10,7 +10,7 @@ public final class GitHubActionsTest extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-        World world = Bukkit.getWorlds().get(0);
+//        World world = Bukkit.getWorlds().get(0);
         world.spawn(world.getSpawnLocation(), Llama.class);
         getLogger().info("Spawned llama at spawn.");
     }
