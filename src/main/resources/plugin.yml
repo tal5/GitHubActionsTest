@@ -1,0 +1,4 @@
+name: GitHubActionsTest
+version: '${project.version}'
+main: github.actions.test.githubactionstest.GitHubActionsTest
+api-version: 1.19
